@@ -1,0 +1,23 @@
+{
+  "name": "backend-landscape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francooluna1/backend-landscape.git"
+  },
+  "keywords": [],
+  "author": "Luna Franco Agustin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francooluna1/backend-landscape/issues"
+  },
+  "homepage": "https://github.com/francooluna1/backend-landscape#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
