@@ -14,7 +14,7 @@ API para obtener actividades
 
 2. Ingresar al directorio del proyecto:
 
-    ```cd back-landscape ```
+    ```cd backend-landscape ```
 
 3. Instalar las dependencias:
 
