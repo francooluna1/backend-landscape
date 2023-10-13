@@ -1,4 +1,4 @@
-# Node.js Backend para Prueba en Landscape
+# Node.js Backend Landscape
 
 API para obtener actividades
 
@@ -10,7 +10,7 @@ API para obtener actividades
 
 1. Clonar este repositorio:
 
-   ```git clone https://github.com/tu-usuario/tu-repositorio.git ```
+   ```git clone git@github.com:francooluna1/backend-landscape.git ```
 
 2. Ingresar al directorio del proyecto:
 
@@ -20,7 +20,7 @@ API para obtener actividades
 
     ```npm install ```
 
-4. Inciar el servidor:
+4. Iniciar la aplicacion:
 
     ``` node app.js ```
 
@@ -31,31 +31,55 @@ API para obtener actividades
 6. Le devolvera el siguiente JSON:
 ```
 [
-  {
-    "activityId": 1,
-    "title": "Subida al cerro catedral",
-    "type": "ACTIVITY",
-    "startDate": "2022-01-22 01:30:00",
-    "endDate": "2022-01-22 23:30:00",
-    "status": "IN_PROGRESS"
-  },
-  {
-    "activityId": 2,
-    "title": "Fiesta de espuma",
-    "type": "PARTY",
-    "startDate": "2022-01-22 01:30:00",
-    "endDate": "2022-01-22 23:30:00",
-    "status": "DONE"
-  },
-  {
-    "activityId": 3,
-    "title": "Desayuno",
-    "type": "FOOD",
-    "startDate": null,
-    "endDate": null,
-    "status": null
-  }
-]
+    {
+      activityId: 1,
+      title: 'Subida al cerro catedral',
+      type: 'ACTIVITY',
+      startDate: '2023-10-12 01:30:00',
+      endDate: '2023-10-12 23:30:00',
+      status: 'IN_PROGRESS',
+    },
+    {
+      activityId: 2,
+      title: 'Fiesta de espuma',
+      type: 'PARTY',
+      startDate: '2023-10-13 01:30:00',
+      endDate: '2023-10-13 23:30:00',
+      status: 'DONE',
+    },
+    {
+      activityId: 3,
+      title: 'Desayuno',
+      type: 'FOOD',
+      startDate: null,
+      endDate: null,
+      status: null,
+    },
+    {
+      activityId: 4,
+      title: 'Cena',
+      type: 'FOOD',
+      startDate: '2023-10-14 22:00:00',
+      endDate: '2023-10-14 23:00:00',
+      status: null,
+    },
+    {
+      activityId: 5,
+      title: 'Futbol',
+      type: 'ACTIVITY',
+      startDate: '2023-10-12 14:00:00',
+      endDate: '2023-10-12 15:00:00',
+      status: 'IN_PROGRESS',
+    },
+    {
+      activityId: 6,
+      title: 'Salida al parque',
+      type: 'ACTIVITY',
+      startDate: '2023-10-13 08:23:00',
+      endDate: '2023-10-13 10:17:00',
+      status: null,
+    },
+  ]
 ```
 
 
